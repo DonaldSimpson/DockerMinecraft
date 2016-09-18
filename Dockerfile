@@ -32,5 +32,5 @@ ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
 RUN chmod +x /tini
 ENTRYPOINT ["/tini", "--"]
 
-# Run your program under Tini
+# Run Minecraft script under Tini
 CMD ["/minecraftserver/startminecraft.sh"]
